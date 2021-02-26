@@ -47,3 +47,39 @@ Text Domain:  accelerate-theme-child
   color: #45ac9d;
   text-transform: uppercase;
 }
+
+article.case-study {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+article.case-study h2 {
+  font-size: 1.5em;
+}
+
+article.case-study h4 {
+  font-size: .875em;
+  color: #a6a6a6;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+article.case-study h4 span {
+  color: black;
+}
+
+aside.case-study-sidebar {
+  width: 35%;
+  margin-top: 100px;
+  margin-right: 25px;
+}
+
+.case-study-images {
+  width: 55%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.case-study-images img {
+  width: 100%;
+}
