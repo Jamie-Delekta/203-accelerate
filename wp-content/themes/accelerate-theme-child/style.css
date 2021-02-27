@@ -57,15 +57,18 @@ article.case-study h2 {
   font-size: 1.5em;
 }
 
-article.case-study h4 {
-  font-size: .875em;
+article.case-study h5 {
+  font-size: 1em;
   color: #a6a6a6;
   font-family: 'Open Sans';
   font-weight: 400;
+  text-transform: none;
+  margin-top: 0;
 }
 
-article.case-study h4 span {
-  color: black;
+article.case-study h6 {
+  font-weight: 400;
+  margin-top: 0;
 }
 
 aside.case-study-sidebar {
@@ -77,9 +80,25 @@ aside.case-study-sidebar {
 .case-study-images {
   width: 55%;
   margin-top: 100px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .case-study-images img {
   width: 100%;
+}
+
+.navigation-container {
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.left {
+  color: #45ac9d;
+}
+
+.left a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 600;
 }
