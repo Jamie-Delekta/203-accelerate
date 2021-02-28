@@ -13,9 +13,7 @@
 		</div><!-- #main -->
 
 		<footer id="colophon" class="site-footer clearfix" role="contentinfo">
-		<div class="navigation-container">
-		<div class="left">&larr;<a href="">back to work</a></div>
-		</div>	
+			
 			<div class="site-info">
 				<div class="site-description">
 					<p><?php bloginfo('description'); ?></p>

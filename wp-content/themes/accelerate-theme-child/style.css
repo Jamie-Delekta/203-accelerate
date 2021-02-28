@@ -102,3 +102,26 @@ aside.case-study-sidebar {
   color: black;
   font-weight: 600;
 }
+
+.featured-work h4 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 85px;
+  margin-top:0;
+  text-transform: uppercase;
+}
+
+ul.homepage-featured-work {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.homepage-featured-work li {
+  list-style: none;
+}
+
+li.individual-featured-work h3 {
+  text-align: center;
+  font-weight: 600;
+  color: #6b6b6b;
+}
