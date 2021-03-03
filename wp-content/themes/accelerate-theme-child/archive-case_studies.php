@@ -16,6 +16,8 @@ get_header(); ?>
 
 	<div id="primary" class="site-content sidebar">
 		<div class="main-content" role="main">
+            <?php global $query_string;
+            query_posts( $query_string . '&order=ASC' ); ?>
 			<?php while ( have_posts() ) : the_post(); 
                 $image_1 = get_field('image_1');
                 $size = "medium";
@@ -28,7 +30,7 @@ get_header(); ?>
 
 						<?php the_excerpt(); ?>
 
-						<p><strong><a href="<?php the_permalink(); ?>">View Project</a></strong></p>
+						<p class="read-more-link"><a href="<?php the_permalink(); ?>">View Project &rsaquo;</a></p>
 					</aside>
 					<div class="case-study-images">
                     <a href="<?php the_permalink(); ?>">
