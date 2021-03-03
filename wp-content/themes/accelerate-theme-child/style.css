@@ -20,7 +20,7 @@ Text Domain:  accelerate-theme-child
     background: none repeat scroll 0 0 #45ac9d;
   }
 
-  .button {
+.button {
 	background: #45ac9d;
 }
 
@@ -48,9 +48,8 @@ Text Domain:  accelerate-theme-child
   text-transform: uppercase;
 }
 
-article.case-study {
-  display: flex;
-  flex-flow: row wrap;
+.case-study-sidebar{
+  margin-bottom: 50px;
 }
 
 article.case-study h2 {
@@ -69,18 +68,6 @@ article.case-study h5 {
 article.case-study h6 {
   font-weight: 400;
   margin-top: 0;
-}
-
-aside.case-study-sidebar {
-  width: 35%;
-  margin-top: 100px;
-  margin-right: 25px;
-}
-
-.case-study-images {
-  width: 55%;
-  margin-top: 100px;
-  margin-left: 30px;
 }
 
 .case-study-images img {
@@ -124,4 +111,44 @@ li.individual-featured-work h3 {
   text-align: center;
   font-weight: 600;
   color: #6b6b6b;
+}
+
+div.case-study-images img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+@media (min-width: 768px) {
+
+  article.case-study {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  aside.case-study-sidebar {
+    width: 35%;
+    margin-top: 70px;
+    margin-right: 25px;
+  }
+  
+  .case-study-images {
+    width: 55%;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+
+
+
+
+}
+
+@media (min-width: 1200px) {
+
+  aside.case-study-sidebar {
+    margin-top: 100px;
+  }
+
+
 }
