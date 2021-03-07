@@ -120,6 +120,52 @@ div.case-study-images img {
 
 
 
+ul#menu-social-media-nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul#menu-social-media-nav li {
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-twitter:before,
+.fa-facebook-f:before,
+.fa-linkedin-in:before {
+  font-size: 1.5em;
+}
+
+
+
+
+/* Text meant only for screen readers. */
+span.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+} 
+
+
+
+
+
+
 @media (min-width: 768px) {
 
   article.case-study {
