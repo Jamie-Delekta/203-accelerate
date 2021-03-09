@@ -142,18 +142,23 @@ ul#menu-social-media-nav li {
   border-radius: 50%;
   text-align: center;
   padding-top: 8px;
-  padding-left: 8px;
+  position: relative;
 }
-
-/*.fa-twitter:before {
-  padding-right: 7px;
-}*/
 
 .fa-twitter:before,
 .fa-facebook-f:before,
 .fa-linkedin-in:before {
   font-size: 1.5em;
 }
+
+.site-footer a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 
 
 /* Text meant only for screen readers. */
