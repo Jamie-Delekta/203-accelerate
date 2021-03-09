@@ -120,6 +120,13 @@ div.case-study-images img {
 
 
 
+/* Menu Social Icon Styles */
+
+.menu-social-media-nav-container {
+  position: relative;
+  z-index: 2;
+}
+
 ul#menu-social-media-nav {
   list-style-type: none;
   display: flex;
@@ -133,10 +140,14 @@ ul#menu-social-media-nav li {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  padding-top: 8px;
+  padding-left: 8px;
 }
+
+/*.fa-twitter:before {
+  padding-right: 7px;
+}*/
 
 .fa-twitter:before,
 .fa-facebook-f:before,
@@ -145,21 +156,57 @@ ul#menu-social-media-nav li {
 }
 
 
-
-
 /* Text meant only for screen readers. */
 span.screen-reader-text {
 	border: 0;
 	clip: rect(1px, 1px, 1px, 1px);
 	clip-path: inset(50%);
 	height: 1px;
-	margin: -1px;
-	overflow: hidden;
+	margin: -10px;
+	visibility: hidden;
 	padding: 0;
-	position: absolute;
+	position: relative;
 	width: 1px;
-	word-wrap: normal !important;
+	overflow-wrap: normal !important;
+  z-index: 1;
 } 
+
+
+
+
+/* Contact Us Form Styles */
+
+.main-content h2 {
+  font-size: 1.5em;
+}
+
+#nf-field-1-container,
+#nf-field-2-container {
+  width: 48%;
+  display: inline-block;
+}
+
+#nf-field-2-container {
+  float: right;
+}
+
+#nf-label-field-1,
+#nf-label-field-2,
+#nf-label-field-3 {
+  font-size: .875em;
+  font-weight: 600;
+}
+
+.ninja-forms-req-symbol,
+.nf-form-fields-required {
+  display: none;
+}
+
+#nf-field-4.ninja-forms-field.nf-element {
+  width: 200px;
+  background-color: #45ac9d;
+  float: right;
+}
 
 
 
@@ -183,6 +230,10 @@ span.screen-reader-text {
     width: 55%;
     margin-top: 100px;
     margin-left: 30px;
+  }
+
+  .main-content {
+    margin: 0 150px;
   }
 
 
