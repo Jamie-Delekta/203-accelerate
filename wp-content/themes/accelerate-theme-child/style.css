@@ -151,6 +151,10 @@ ul#menu-social-media-nav li {
   font-size: 1.5em;
 }
 
+.fa-facebook-f:before {
+  content: "\f39e"  !important;
+}
+
 .site-footer a {
   position: absolute;
   top: 0;
@@ -215,6 +219,141 @@ span.screen-reader-text {
 
 
 
+/* About Page Styles */
+
+
+.about-page.hero-content {
+  background: url("img/taxi-photo.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 300px;
+}
+
+.about-page.hero-content p {
+  color: #ffffff;
+  font-size: 1.45em;
+  width: 60%;
+  text-align: center;
+}
+
+.about-page h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+aside.about-page-sidebar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.services {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.content-strategy,
+.influencer-mapping,
+.social-strategy,
+.design {
+  overflow: auto;
+  margin: 50px 120.800px;
+  width: 63%;
+}
+
+.content-strategy img,
+.social-strategy img {
+  float: left;
+  margin-right: 150px;
+}
+
+
+.services p {
+  width: 60%; 
+  text-align: center;
+}
+
+.content-strategy p {
+  width: 50%;
+}
+
+
+aside.about-page-sidebar p {
+  width: 50%;
+  margin: 0;
+  display: inline-block;
+}
+
+aside.about-page-sidebar h3 {
+  font-size: 1.5em;
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding-top: 50px;
+
+}
+
+.influencer-mapping img,
+.design img {
+  float: right;
+  margin-right: 100px;
+}
+
+.design {
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 50px;
+}
+
+
+.about-page-sidebar h5 {
+  margin-top: 8.5px;
+  margin-right: 50px;
+}
+
+
+
+/* 404 Page Styles */
+
+
+#primary.error-page-hero {
+ background-color: black;
+ background-image: url('img/silhouette.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 650px;
+}
+
+#primary.error-page-hero h1,
+#primary.error-page-hero h2 {
+  font-family: 'Creepster', 'Montserrat', 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+#primary.error-page-hero h1 {
+  margin: 200px 0 0 100px;
+  font-size: 2.5em;
+}
+
+#primary.error-page-hero h2 {
+  margin: 75px 50px 0px 50px;
+  font-size: 1.75em;
+  text-align: justify;
+  padding: 0px 100px 100px 100px;
+}
+
+#primary.error-page-hero h2 span {
+  color: red;
+}
+
+
 
 
 
@@ -237,9 +376,7 @@ span.screen-reader-text {
     margin-left: 30px;
   }
 
-  .main-content {
-    margin: 0 150px;
-  }
+ 
 
 
 
