@@ -355,6 +355,20 @@ aside.about-page-sidebar h3 {
 
 
 
+/*Newsletter Signup Form Styles */
+
+.mc4wp-form-fields input[type="submit"] {
+  background: #45ac9d;
+  line-height: 0;
+}
+
+#sidebar h2 {
+  font-size: 1.125em;
+}
+
+
+
+
 
 
 @media (min-width: 768px) {
